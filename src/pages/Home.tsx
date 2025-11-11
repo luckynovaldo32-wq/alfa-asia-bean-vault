@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Star } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import FallingCoffeeBeans from "@/components/FallingCoffeeBeans";
 import heroImage from "@/assets/hero-coffee.jpg";
 
@@ -42,49 +42,6 @@ const Home = () => {
               <ArrowRight className="w-5 h-5" />
             </a>
           </Button>
-        </div>
-      </section>
-
-      {/* Testimonials Section */}
-      <section className="py-20 bg-gradient-to-b from-espresso to-secondary">
-        <div className="container mx-auto px-4">
-          <h2 className="font-cinzel font-bold text-3xl md:text-4xl text-center text-gold mb-16">
-            Dipercaya Oleh Mitra Premium
-          </h2>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              {
-                quote: "Kualitas biji kopi Grade 1 yang konsisten. Rasa Vanilla Blend sempurna untuk signature menu kami.",
-                author: "Premium Cafe Jakarta",
-              },
-              {
-                quote: "Proses semi washed menghasilkan rasa yang bersih. Brown Sugar Roast menjadi favorit tamu hotel.",
-                author: "5-Star Hotel Bali",
-              },
-              {
-                quote: "Butterquet Signature unik dan eksklusif. Pelanggan kami sangat menyukainya.",
-                author: "Specialty Roastery Surabaya",
-              },
-            ].map((testimonial, index) => (
-              <div 
-                key={index}
-                className="bg-card/50 backdrop-blur-sm border border-gold/20 rounded-lg p-8 hover:border-gold/60 transition-all duration-300 hover:shadow-lg hover:shadow-gold/10"
-              >
-                <div className="flex gap-1 mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 fill-gold text-gold" />
-                  ))}
-                </div>
-                <p className="font-lora text-foreground/90 italic mb-6 leading-relaxed">
-                  "{testimonial.quote}"
-                </p>
-                <p className="font-cinzel font-semibold text-gold">
-                  — {testimonial.author}
-                </p>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
