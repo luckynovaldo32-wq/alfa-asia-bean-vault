@@ -57,6 +57,14 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        espresso: "hsl(var(--espresso))",
+        gold: "hsl(var(--gold))",
+        cream: "hsl(var(--cream))",
+        "gold-glow": "hsl(var(--gold-glow))",
+      },
+      fontFamily: {
+        cinzel: ['Cinzel', 'serif'],
+        lora: ['Lora', 'serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -80,10 +88,33 @@ export default {
             height: "0",
           },
         },
+        "float": {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-20px)" },
+        },
+        "pulse-gold": {
+          "0%, 100%": { opacity: "1" },
+          "50%": { opacity: "0.5" },
+        },
+        "fall": {
+          "0%": { 
+            transform: "translateY(-100vh) rotate(0deg)",
+            opacity: "0"
+          },
+          "10%": { opacity: "1" },
+          "90%": { opacity: "1" },
+          "100%": { 
+            transform: "translateY(100vh) rotate(360deg)",
+            opacity: "0"
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "float": "float 3s ease-in-out infinite",
+        "pulse-gold": "pulse-gold 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        "fall": "fall 8s linear infinite",
       },
     },
   },
