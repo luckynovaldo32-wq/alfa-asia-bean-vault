@@ -15,8 +15,8 @@ const Business = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 mb-16">
-          <Card className="p-8 md:p-12 bg-gradient-to-br from-card to-secondary border-gold/20 hover:border-gold/60 transition-all duration-300 hover:shadow-xl hover:shadow-gold/10">
-            <div className="bg-gradient-to-r from-gold/20 to-gold-glow/20 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+          <Card className="p-8 md:p-12 bg-secondary border-gold/20 hover:border-gold/60 transition-all duration-300 shadow-soft hover:shadow-elegant">
+            <div className="bg-gold/20 w-16 h-16 rounded-full flex items-center justify-center mb-6">
               <Award className="w-8 h-8 text-gold" />
             </div>
             <h2 className="font-cinzel font-bold text-2xl md:text-3xl text-gold mb-4">
@@ -38,8 +38,8 @@ const Business = () => {
             </div>
           </Card>
 
-          <Card className="p-8 md:p-12 bg-gradient-to-br from-card to-secondary border-gold/20 hover:border-gold/60 transition-all duration-300 hover:shadow-xl hover:shadow-gold/10">
-            <div className="bg-gradient-to-r from-gold/20 to-gold-glow/20 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+          <Card className="p-8 md:p-12 bg-secondary border-gold/20 hover:border-gold/60 transition-all duration-300 shadow-soft hover:shadow-elegant">
+            <div className="bg-gold/20 w-16 h-16 rounded-full flex items-center justify-center mb-6">
               <Droplet className="w-8 h-8 text-gold" />
             </div>
             <h2 className="font-cinzel font-bold text-2xl md:text-3xl text-gold mb-4">
@@ -62,7 +62,7 @@ const Business = () => {
           </Card>
         </div>
 
-        <div className="bg-gradient-to-r from-espresso to-secondary rounded-2xl p-8 md:p-12 border-2 border-gold/30 text-center">
+        <div className="bg-espresso rounded-2xl p-8 md:p-12 border-2 border-gold/30 text-center shadow-elegant">
           <h2 className="font-cinzel font-bold text-3xl md:text-4xl text-gold mb-6">
             Mitra Eksklusif Kami
           </h2>
@@ -84,7 +84,7 @@ const Business = () => {
             href="https://wa.me/6282364471520?text=Halo,%20saya%20tertarik%20untuk%20menjadi%20mitra%20bisnis%20Alfa%20Asia%20Global"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-gradient-to-r from-gold to-gold-glow text-espresso font-cinzel font-bold px-8 py-4 rounded-lg hover:shadow-2xl hover:shadow-gold/50 transition-all duration-300 hover:scale-105"
+            className="inline-block bg-gold text-espresso font-cinzel font-bold px-8 py-4 rounded-lg hover:bg-gold-accent transition-all duration-300 hover:scale-105 shadow-elegant"
           >
             Jadilah Mitra Kami
           </a>

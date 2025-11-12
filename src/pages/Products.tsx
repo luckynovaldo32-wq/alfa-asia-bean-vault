@@ -40,7 +40,7 @@ const Products = () => {
           ))}
         </div>
 
-        <div className="bg-gradient-to-r from-secondary to-secondary/80 rounded-2xl p-8 md:p-12 border border-gold/20 text-center">
+        <div className="bg-secondary rounded-2xl p-8 md:p-12 border border-gold/20 text-center shadow-elegant">
           <h2 className="font-cinzel font-bold text-2xl md:text-3xl text-gold mb-4">
             Butuh Sample atau Informasi Lebih Lanjut?
           </h2>
@@ -51,7 +51,7 @@ const Products = () => {
             href="https://wa.me/6282364471520?text=Halo,%20saya%20tertarik%20dengan%20sample%20dan%20penawaran"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-gradient-to-r from-gold to-gold-glow text-espresso font-cinzel font-bold px-8 py-4 rounded-lg hover:shadow-2xl hover:shadow-gold/50 transition-all duration-300 hover:scale-105"
+            className="inline-block bg-gold text-espresso font-cinzel font-bold px-8 py-4 rounded-lg hover:bg-gold-accent transition-all duration-300 hover:scale-105 shadow-elegant"
           >
             Chat WhatsApp Sekarang
           </a>

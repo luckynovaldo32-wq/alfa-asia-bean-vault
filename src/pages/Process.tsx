@@ -41,10 +41,10 @@ const Process = () => {
           {steps.map((step, index) => (
             <Card 
               key={index}
-              className="p-8 bg-gradient-to-br from-card to-secondary border-gold/20 hover:border-gold/60 transition-all duration-500 hover:shadow-xl hover:shadow-gold/10 group"
+              className="p-8 bg-secondary border-gold/20 hover:border-gold/60 transition-all duration-500 shadow-soft hover:shadow-elegant group"
             >
               <div className="flex items-start gap-6">
-                <div className="bg-gradient-to-r from-gold/20 to-gold-glow/20 w-16 h-16 rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                <div className="bg-gold/20 w-16 h-16 rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
                   <step.icon className="w-8 h-8 text-gold" />
                 </div>
                 <div>
@@ -65,7 +65,7 @@ const Process = () => {
           ))}
         </div>
 
-        <Card className="bg-gradient-to-r from-espresso to-secondary border-2 border-gold/30 p-8 md:p-12">
+        <Card className="bg-espresso border-2 border-gold/30 p-8 md:p-12 shadow-elegant">
           <div className="text-center mb-8">
             <h2 className="font-cinzel font-bold text-3xl text-gold mb-4">
               Mengapa Semi Washed?
@@ -77,21 +77,21 @@ const Process = () => {
 
           <div className="grid md:grid-cols-3 gap-6">
             <div className="text-center">
-              <div className="bg-gradient-to-r from-gold/20 to-gold-glow/20 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-gold/20 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-gold font-cinzel font-bold text-xl">1</span>
               </div>
               <h4 className="font-cinzel font-semibold text-gold mb-2">Clean Cup</h4>
               <p className="font-lora text-sm text-foreground/70">Rasa murni tanpa defect atau off-flavor</p>
             </div>
             <div className="text-center">
-              <div className="bg-gradient-to-r from-gold/20 to-gold-glow/20 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-gold/20 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-gold font-cinzel font-bold text-xl">2</span>
               </div>
               <h4 className="font-cinzel font-semibold text-gold mb-2">Natural Sweetness</h4>
               <p className="font-lora text-sm text-foreground/70">Manis alami dari gula buah yang tersisa</p>
             </div>
             <div className="text-center">
-              <div className="bg-gradient-to-r from-gold/20 to-gold-glow/20 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-gold/20 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-gold font-cinzel font-bold text-xl">3</span>
               </div>
               <h4 className="font-cinzel font-semibold text-gold mb-2">Balanced Body</h4>

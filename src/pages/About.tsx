@@ -9,20 +9,20 @@ const About = () => {
             </h1>
           </div>
 
-          <div className="bg-gradient-to-br from-espresso to-secondary rounded-2xl p-12 md:p-16 border-2 border-gold/30 text-center mb-12 shadow-2xl shadow-gold/10">
+          <div className="bg-espresso rounded-2xl p-12 md:p-16 border-2 border-gold/30 text-center mb-12 shadow-elegant">
             <p className="font-cinzel text-2xl md:text-3xl text-gold leading-relaxed italic">
               "Alfa Asia Global dijalankan oleh Muhammad Alif Saifullah dengan komitmen penuh pada kualitas Grade 1 semi washed."
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <div className="bg-card/50 backdrop-blur-sm border border-gold/20 rounded-lg p-8 hover:border-gold/60 transition-all duration-300">
+            <div className="bg-card backdrop-blur-sm border border-gold/20 rounded-lg p-8 hover:border-gold/60 transition-all duration-300 shadow-soft">
               <h3 className="font-cinzel font-bold text-xl text-gold mb-4">Visi Kami</h3>
               <p className="font-lora text-foreground/80 leading-relaxed">
                 Menjadi pemasok terpercaya biji kopi flavored Grade 1 untuk bisnis premium di Indonesia dan pasar ekspor, dengan standar kualitas yang tidak pernah berkompromi.
               </p>
             </div>
-            <div className="bg-card/50 backdrop-blur-sm border border-gold/20 rounded-lg p-8 hover:border-gold/60 transition-all duration-300">
+            <div className="bg-card backdrop-blur-sm border border-gold/20 rounded-lg p-8 hover:border-gold/60 transition-all duration-300 shadow-soft">
               <h3 className="font-cinzel font-bold text-xl text-gold mb-4">Komitmen Kualitas</h3>
               <p className="font-lora text-foreground/80 leading-relaxed">
                 Setiap biji kopi yang kami suplai telah melalui seleksi ketat dan proses semi washed yang presisi untuk memastikan profil rasa exceptional yang konsisten.
@@ -30,7 +30,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-card to-secondary rounded-2xl p-8 md:p-12 border border-gold/20">
+          <div className="bg-secondary rounded-2xl p-8 md:p-12 border border-gold/20 shadow-elegant">
             <h3 className="font-cinzel font-bold text-2xl text-gold mb-6 text-center">
               Mengapa Memilih Kami?
             </h3>
@@ -66,7 +66,7 @@ const About = () => {
               href="https://wa.me/6282364471520?text=Halo,%20saya%20tertarik%20untuk%20mengetahui%20lebih%20lanjut%20tentang%20Alfa%20Asia%20Global"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-gradient-to-r from-gold to-gold-glow text-espresso font-cinzel font-bold px-8 py-4 rounded-lg hover:shadow-2xl hover:shadow-gold/50 transition-all duration-300 hover:scale-105"
+              className="inline-block bg-gold text-espresso font-cinzel font-bold px-8 py-4 rounded-lg hover:bg-gold-accent transition-all duration-300 hover:scale-105 shadow-elegant"
             >
               Hubungi Muhammad Alif Saifullah
             </a>
