@@ -59,11 +59,11 @@ export default {
         },
         espresso: "hsl(var(--espresso))",
         coffee: "hsl(var(--coffee))",
+        latte: "hsl(var(--latte))",
         cream: "hsl(var(--cream))",
         "cream-light": "hsl(var(--cream-light))",
-        "brown-glow": "hsl(var(--brown-glow))",
         gold: "hsl(var(--gold))",
-        "gold-glow": "hsl(var(--gold-glow))",
+        "gold-accent": "hsl(var(--gold-accent))",
       },
       fontFamily: {
         cinzel: ['Cinzel', 'serif'],

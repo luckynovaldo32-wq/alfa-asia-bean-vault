@@ -1,19 +1,19 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import FallingCoffeeBeans from "@/components/FallingCoffeeBeans";
-import heroImage from "@/assets/hero-coffee.jpg";
+import heroImage from "@/assets/hero-coffee-beans.jpg";
 
 const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-espresso z-10" />
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-espresso">
         <img 
           src={heroImage} 
           alt="Premium Coffee Beans"
-          className="absolute inset-0 w-full h-full object-cover opacity-20"
+          className="absolute inset-0 w-full h-full object-cover opacity-40"
         />
+        <div className="absolute inset-0 bg-espresso/60 z-10" />
         <FallingCoffeeBeans />
         
         <div className="relative z-20 container mx-auto px-4 text-center">
@@ -30,7 +30,7 @@ const Home = () => {
           <Button 
             asChild
             size="lg"
-            className="bg-gradient-to-r from-gold to-gold-glow text-espresso font-cinzel font-bold text-lg px-8 py-6 hover:shadow-2xl hover:shadow-gold/50 transition-all duration-300 hover:scale-105 animate-fade-in"
+            className="bg-gold text-espresso font-cinzel font-bold text-lg px-8 py-6 hover:bg-gold-accent transition-all duration-300 hover:scale-105 shadow-elegant animate-fade-in"
           >
             <a 
               href="https://wa.me/6282364471520?text=Halo,%20saya%20tertarik%20dengan%20katalog%20Alfa%20Asia%20Global" 
@@ -57,7 +57,7 @@ const Home = () => {
           <Button 
             asChild
             size="lg"
-            className="bg-gradient-to-r from-gold to-gold-glow text-espresso font-cinzel font-bold text-lg px-8 py-6 hover:shadow-2xl hover:shadow-gold/50 transition-all duration-300 hover:scale-105"
+            className="bg-gold text-espresso font-cinzel font-bold text-lg px-8 py-6 hover:bg-gold-accent transition-all duration-300 hover:scale-105 shadow-elegant"
           >
             <a 
               href="https://wa.me/6282364471520?text=Halo,%20saya%20tertarik%20dengan%20katalog%20Alfa%20Asia%20Global" 

@@ -8,43 +8,43 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 30 25% 95%;
-    --foreground: 25 60% 15%;
+    --background: 35 30% 94%;
+    --foreground: 20 50% 18%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 25 60% 15%;
+    --card: 35 25% 98%;
+    --card-foreground: 20 50% 18%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 25 60% 15%;
+    --popover: 35 25% 98%;
+    --popover-foreground: 20 50% 18%;
 
-    --primary: 25 70% 35%;
-    --primary-foreground: 30 15% 98%;
+    --primary: 20 45% 28%;
+    --primary-foreground: 35 25% 98%;
 
-    --secondary: 30 50% 55%;
-    --secondary-foreground: 25 60% 15%;
+    --secondary: 30 35% 75%;
+    --secondary-foreground: 20 50% 18%;
 
-    --muted: 30 35% 88%;
-    --muted-foreground: 25 40% 35%;
+    --muted: 35 20% 85%;
+    --muted-foreground: 20 30% 40%;
 
-    --accent: 35 80% 60%;
-    --accent-foreground: 25 60% 15%;
+    --accent: 38 65% 58%;
+    --accent-foreground: 20 50% 18%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 35 25% 98%;
 
-    --border: 30 30% 80%;
-    --input: 30 30% 80%;
-    --ring: 25 70% 35%;
+    --border: 30 25% 82%;
+    --input: 30 25% 82%;
+    --ring: 20 45% 28%;
 
     --radius: 0.5rem;
 
-    --espresso: 25 60% 20%;
-    --coffee: 25 70% 35%;
-    --cream: 30 50% 80%;
-    --cream-light: 30 45% 90%;
-    --brown-glow: 25 75% 45%;
-    --gold: 40 85% 55%;
-    --gold-glow: 45 90% 65%;
+    --espresso: 20 50% 18%;
+    --coffee: 20 45% 28%;
+    --latte: 30 35% 75%;
+    --cream: 35 30% 88%;
+    --cream-light: 35 25% 94%;
+    --gold: 38 65% 58%;
+    --gold-accent: 40 70% 65%;
     
     --sidebar-background: 0 0% 100%;
     --sidebar-foreground: 25 40% 20%;
@@ -57,50 +57,50 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 25 40% 10%;
-    --foreground: 30 20% 92%;
+    --background: 20 40% 12%;
+    --foreground: 35 20% 90%;
 
-    --card: 25 35% 14%;
-    --card-foreground: 30 20% 92%;
+    --card: 20 35% 16%;
+    --card-foreground: 35 20% 90%;
 
-    --popover: 25 35% 14%;
-    --popover-foreground: 30 20% 92%;
+    --popover: 20 35% 16%;
+    --popover-foreground: 35 20% 90%;
 
-    --primary: 25 75% 45%;
-    --primary-foreground: 25 40% 10%;
+    --primary: 38 55% 55%;
+    --primary-foreground: 20 40% 12%;
 
-    --secondary: 30 40% 25%;
-    --secondary-foreground: 30 20% 92%;
+    --secondary: 25 30% 28%;
+    --secondary-foreground: 35 20% 90%;
 
-    --muted: 25 30% 18%;
-    --muted-foreground: 30 25% 65%;
+    --muted: 20 25% 22%;
+    --muted-foreground: 30 18% 65%;
 
-    --accent: 35 70% 50%;
-    --accent-foreground: 25 40% 10%;
+    --accent: 38 65% 58%;
+    --accent-foreground: 20 40% 12%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 35 20% 90%;
 
-    --border: 25 30% 18%;
-    --input: 25 30% 18%;
-    --ring: 25 75% 45%;
+    --border: 20 25% 22%;
+    --input: 20 25% 22%;
+    --ring: 38 55% 55%;
     
-    --espresso: 25 60% 20%;
-    --coffee: 25 70% 35%;
-    --cream: 30 50% 80%;
-    --cream-light: 30 45% 90%;
-    --brown-glow: 25 75% 45%;
-    --gold: 40 85% 55%;
-    --gold-glow: 45 90% 65%;
+    --espresso: 20 50% 18%;
+    --coffee: 20 45% 28%;
+    --latte: 30 35% 75%;
+    --cream: 35 30% 88%;
+    --cream-light: 35 25% 94%;
+    --gold: 38 65% 58%;
+    --gold-accent: 40 70% 65%;
     
-    --sidebar-background: 25 30% 12%;
-    --sidebar-foreground: 30 25% 95%;
-    --sidebar-primary: 25 65% 55%;
-    --sidebar-primary-foreground: 25 30% 12%;
-    --sidebar-accent: 25 20% 22%;
-    --sidebar-accent-foreground: 30 25% 95%;
-    --sidebar-border: 25 20% 22%;
-    --sidebar-ring: 25 65% 55%;
+    --sidebar-background: 20 40% 12%;
+    --sidebar-foreground: 35 20% 90%;
+    --sidebar-primary: 38 55% 55%;
+    --sidebar-primary-foreground: 20 40% 12%;
+    --sidebar-accent: 20 25% 22%;
+    --sidebar-accent-foreground: 35 20% 90%;
+    --sidebar-border: 20 25% 22%;
+    --sidebar-ring: 38 55% 55%;
   }
 }
 
@@ -116,14 +116,14 @@ All colors MUST be HSL.
 
 @layer utilities {
   .text-gradient-gold {
-    @apply bg-gradient-to-r from-gold to-gold-glow bg-clip-text text-transparent;
+    @apply text-gold;
   }
   
-  .glow-coffee {
-    box-shadow: 0 0 20px hsl(var(--coffee) / 0.5);
+  .shadow-soft {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
   
-  .glow-coffee-lg {
-    box-shadow: 0 0 40px hsl(var(--coffee) / 0.6);
+  .shadow-elegant {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
   }
 }
