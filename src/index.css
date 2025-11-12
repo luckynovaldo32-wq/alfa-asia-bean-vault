@@ -8,41 +8,43 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 30 25% 97%;
-    --foreground: 25 40% 20%;
+    --background: 30 25% 95%;
+    --foreground: 25 60% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 25 40% 20%;
+    --card-foreground: 25 60% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 25 40% 20%;
+    --popover-foreground: 25 60% 15%;
 
-    --primary: 25 55% 45%;
-    --primary-foreground: 30 25% 97%;
+    --primary: 25 70% 35%;
+    --primary-foreground: 30 15% 98%;
 
-    --secondary: 30 35% 65%;
-    --secondary-foreground: 25 40% 20%;
+    --secondary: 30 50% 55%;
+    --secondary-foreground: 25 60% 15%;
 
-    --muted: 30 30% 92%;
-    --muted-foreground: 25 25% 45%;
+    --muted: 30 35% 88%;
+    --muted-foreground: 25 40% 35%;
 
-    --accent: 35 60% 70%;
-    --accent-foreground: 25 40% 20%;
+    --accent: 35 80% 60%;
+    --accent-foreground: 25 60% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 30 25% 88%;
-    --input: 30 25% 88%;
-    --ring: 25 55% 45%;
+    --border: 30 30% 80%;
+    --input: 30 30% 80%;
+    --ring: 25 70% 35%;
 
     --radius: 0.5rem;
 
-    --espresso: 25 45% 25%;
-    --coffee: 25 55% 45%;
-    --cream: 30 35% 85%;
-    --cream-light: 30 40% 92%;
-    --brown-glow: 25 65% 55%;
+    --espresso: 25 60% 20%;
+    --coffee: 25 70% 35%;
+    --cream: 30 50% 80%;
+    --cream-light: 30 45% 90%;
+    --brown-glow: 25 75% 45%;
+    --gold: 40 85% 55%;
+    --gold-glow: 45 90% 65%;
     
     --sidebar-background: 0 0% 100%;
     --sidebar-foreground: 25 40% 20%;
@@ -55,33 +57,41 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 25 30% 12%;
-    --foreground: 30 25% 95%;
+    --background: 25 40% 10%;
+    --foreground: 30 20% 92%;
 
-    --card: 25 25% 16%;
-    --card-foreground: 30 25% 95%;
+    --card: 25 35% 14%;
+    --card-foreground: 30 20% 92%;
 
-    --popover: 25 25% 16%;
-    --popover-foreground: 30 25% 95%;
+    --popover: 25 35% 14%;
+    --popover-foreground: 30 20% 92%;
 
-    --primary: 25 65% 55%;
-    --primary-foreground: 25 30% 12%;
+    --primary: 25 75% 45%;
+    --primary-foreground: 25 40% 10%;
 
-    --secondary: 30 30% 30%;
-    --secondary-foreground: 30 25% 95%;
+    --secondary: 30 40% 25%;
+    --secondary-foreground: 30 20% 92%;
 
-    --muted: 25 20% 22%;
-    --muted-foreground: 30 20% 70%;
+    --muted: 25 30% 18%;
+    --muted-foreground: 30 25% 65%;
 
-    --accent: 35 50% 60%;
-    --accent-foreground: 25 30% 12%;
+    --accent: 35 70% 50%;
+    --accent-foreground: 25 40% 10%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 25 20% 22%;
-    --input: 25 20% 22%;
-    --ring: 25 65% 55%;
+    --border: 25 30% 18%;
+    --input: 25 30% 18%;
+    --ring: 25 75% 45%;
+    
+    --espresso: 25 60% 20%;
+    --coffee: 25 70% 35%;
+    --cream: 30 50% 80%;
+    --cream-light: 30 45% 90%;
+    --brown-glow: 25 75% 45%;
+    --gold: 40 85% 55%;
+    --gold-glow: 45 90% 65%;
     
     --sidebar-background: 25 30% 12%;
     --sidebar-foreground: 30 25% 95%;
@@ -105,15 +115,15 @@ All colors MUST be HSL.
 }
 
 @layer utilities {
-  .text-gradient-coffee {
-    @apply bg-gradient-to-r from-coffee via-brown-glow to-accent bg-clip-text text-transparent;
+  .text-gradient-gold {
+    @apply bg-gradient-to-r from-gold to-gold-glow bg-clip-text text-transparent;
   }
   
   .glow-coffee {
-    box-shadow: 0 0 20px hsl(var(--coffee) / 0.3);
+    box-shadow: 0 0 20px hsl(var(--coffee) / 0.5);
   }
   
   .glow-coffee-lg {
-    box-shadow: 0 0 40px hsl(var(--coffee) / 0.4);
+    box-shadow: 0 0 40px hsl(var(--coffee) / 0.6);
   }
 }

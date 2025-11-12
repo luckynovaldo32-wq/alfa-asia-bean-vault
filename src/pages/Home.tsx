@@ -8,11 +8,11 @@ const Home = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-espresso via-espresso/95 to-espresso z-10" />
+        <div className="absolute inset-0 bg-espresso z-10" />
         <img 
           src={heroImage} 
           alt="Premium Coffee Beans"
-          className="absolute inset-0 w-full h-full object-cover opacity-30"
+          className="absolute inset-0 w-full h-full object-cover opacity-20"
         />
         <FallingCoffeeBeans />
         

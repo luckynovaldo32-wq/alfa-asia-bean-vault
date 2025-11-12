@@ -62,6 +62,8 @@ export default {
         cream: "hsl(var(--cream))",
         "cream-light": "hsl(var(--cream-light))",
         "brown-glow": "hsl(var(--brown-glow))",
+        gold: "hsl(var(--gold))",
+        "gold-glow": "hsl(var(--gold-glow))",
       },
       fontFamily: {
         cinzel: ['Cinzel', 'serif'],
