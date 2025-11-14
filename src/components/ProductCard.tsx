@@ -17,23 +17,24 @@ const ProductCard = ({ title, description, image }: ProductCardProps) => {
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
         />
       </div>
-      <div className="p-6 space-y-4">
-        <h3 className="font-cinzel font-bold text-2xl text-gold group-hover:text-gradient-gold transition-all">
+      <div className="p-4 md:p-6 space-y-3 md:space-y-4">
+        <h3 className="font-cinzel font-bold text-xl md:text-2xl text-gold group-hover:text-gradient-gold transition-all">
           {title}
         </h3>
-        <p className="font-lora text-foreground/80 leading-relaxed">
+        <p className="font-lora text-sm md:text-base text-foreground/80 leading-relaxed">
           {description}
         </p>
         <Button 
           asChild
-          className="w-full bg-gradient-to-r from-gold/20 to-gold-glow/20 border border-gold/40 text-gold hover:bg-gold hover:text-espresso font-cinzel font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-gold/50"
+          className="w-full bg-gold/20 border border-gold/40 text-gold hover:bg-gold hover:text-espresso font-cinzel font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-gold/50 text-xs md:text-sm h-9 md:h-10"
         >
           <a 
             href="https://wa.me/6282364471520?text=Halo,%20saya%20tertarik%20dengan%20sample%20dan%20penawaran" 
             target="_blank" 
             rel="noopener noreferrer"
           >
-            Minta Sample & Penawaran
+            <span className="hidden sm:inline">Minta Sample & Penawaran</span>
+            <span className="sm:hidden">Minta Sample</span>
           </a>
         </Button>
       </div>

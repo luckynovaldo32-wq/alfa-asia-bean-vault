@@ -23,35 +23,35 @@ const Products = () => {
   ];
 
   return (
-    <div className="min-h-screen pt-32 pb-20">
+    <div className="min-h-screen pt-24 md:pt-32 pb-12 md:pb-20">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h1 className="font-cinzel font-bold text-4xl md:text-5xl text-gold mb-6">
+        <div className="text-center mb-12 md:mb-16">
+          <h1 className="font-cinzel font-bold text-3xl sm:text-4xl md:text-5xl text-gold mb-4 md:mb-6">
             Premium Coffee Selection
           </h1>
-          <p className="font-lora text-lg text-foreground/80 max-w-3xl mx-auto leading-relaxed">
+          <p className="font-lora text-base md:text-lg text-foreground/80 max-w-3xl mx-auto leading-relaxed px-4">
             Tiga varian eksklusif biji kopi flavored Grade 1 Semi Washed, dirancang khusus untuk bisnis premium yang mengutamakan kualitas exceptional.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
           {products.map((product, index) => (
             <ProductCard key={index} {...product} />
           ))}
         </div>
 
-        <div className="bg-secondary rounded-2xl p-8 md:p-12 border border-gold/20 text-center shadow-elegant">
-          <h2 className="font-cinzel font-bold text-2xl md:text-3xl text-gold mb-4">
+        <div className="bg-secondary rounded-2xl p-6 md:p-12 border border-gold/20 text-center shadow-elegant">
+          <h2 className="font-cinzel font-bold text-xl sm:text-2xl md:text-3xl text-gold mb-3 md:mb-4">
             Butuh Sample atau Informasi Lebih Lanjut?
           </h2>
-          <p className="font-lora text-foreground/80 mb-6 max-w-2xl mx-auto">
+          <p className="font-lora text-sm md:text-base text-foreground/80 mb-6 max-w-2xl mx-auto">
             Hubungi kami melalui WhatsApp untuk mendapatkan sample gratis dan penawaran khusus untuk mitra bisnis.
           </p>
           <a
             href="https://wa.me/6282364471520?text=Halo,%20saya%20tertarik%20dengan%20sample%20dan%20penawaran"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-gold text-espresso font-cinzel font-bold px-8 py-4 rounded-lg hover:bg-gold-accent transition-all duration-300 hover:scale-105 shadow-elegant"
+            className="inline-block bg-gold text-espresso font-cinzel font-bold text-sm md:text-base px-6 md:px-8 py-3 md:py-4 rounded-lg hover:bg-gold-accent transition-all duration-300 hover:scale-105 shadow-elegant"
           >
             Chat WhatsApp Sekarang
           </a>
